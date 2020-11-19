@@ -10,10 +10,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1 class="header--h1">Monthly Budget</h1>
-    <img id="headerimg" src="images/piggybank-small(by kidaha).jpg" alt="Piggy Bank">
-</header>
+    <header>
+        <h1 class="header--h1">Monthly Budget</h1>
+        <img id="headerimg" src="images/piggybank-small(by kidaha).jpg" alt="Piggy Bank">
+    </header>
+
+    <div class="input--div">
+        <select name="select" id="calculate">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+        </select>
+        <form class="input--form">
+            <input type="text">
+        </form>
+        <form class="input--form">
+            <input type="text">
+        </form>
+        <button id="button">Add</button>
+    </div>
 <script src="app.js"></script>
 </body>
 </html>

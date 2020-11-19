@@ -15,7 +15,30 @@ header {
   max-width: 100%;
   max-height: 100%; }
 
+.input--div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative; }
+
+.input--form {
+  padding-left: 1%;
+  padding-right: 1%; }
+
+#button, #calculate {
+  font-family: Piazzolla; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+@media (max-width: 410px) {
+  .input--div {
+    height: 50%;
+    width: 50%;
+    left: 25%; }
+  .input--form {
+    padding: 1%; } }

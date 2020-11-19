@@ -1,0 +1,17 @@
+.input--div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.input--form {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#button, #calculate {
+    font-family: Piazzolla; 
+}   

@@ -1,4 +1,5 @@
 @import "./sass/_header.scss"; 
+@import "./sass/_form.scss";
 
 * {
     margin: 0;
@@ -6,3 +7,14 @@
     box-sizing: border-box;
 }
 
+@media (max-width:410px) {
+    .input--div {
+        height: 50%;
+        width: 50%;
+        left: 25%;
+    }
+
+    .input--form {
+        padding: 1%;
+    }
+} 
