@@ -4,43 +4,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Monthly Budget</title>
+        <!--Link for html icon image-->
         <link rel="icon" href="images/piggybank-vektor(by BarelyDevi).png">
+        <!--Link to fonts used from Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Meddon&family=Piazzolla&family=Ribeye+Marrow&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!--Header section with h1 and header image-->
         <header>
             <h1 class="header--h1">Monthly Budget</h1>
             <img id="header-img" src="images/piggybank-small(by kidaha).jpg" alt="Piggy Bank">
         </header>
-
+        <!--Section for total savings-->
         <section class="savings--section">
             <div class="savings--div">
                 <h2 id="saving--h2">Total savings</h2>
             </div>
         </section>
-
+        <!--Section for form with options and button, where user adds
+        information-->
         <section class="input--divs">
             <div class="select">
                 <select name="select" id="calculate">
-                    <option value="add">+</option>
-                    <option value="sub">-</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
                 </select>
             </div>
             <form class="input--form">
                 <label for="description">Description</label><br/>
-                <input type="text" name="description">
+                <input type="text" name="description" id="description">
             </form>
             <form class="input--form">
                 <label for="amount">Amount</label><br/>
-                <input type="number" name="amount">
+                <input type="number" name="amount" id="amount">
             </form>
             <div class="select">
             <button id="button">Add</button>
             </div>
         </section>
-
+        <!--Section for income- and spendingslists-->
         <section class="section--divs">
             <div class="income--div">
                 <h2>Income</h2>
@@ -55,7 +59,7 @@
                 </ul>
             </div>
         </section>
-
+        <!--Section for the total income and spendings-->
         <section class="section--divs2">
             <div class="income--div2">
                 <h3>Total income</h3>
@@ -64,11 +68,11 @@
                 <h3>Total spendings</h3>
             </div>
         </section>
-
+        <!--Footer section with footer image-->
         <footer>
             <img id="coins-img" src="images/money(by maheshvk001).png" alt="gold-coins">
         </footer>
-    
+        <!--Script below to link js to html-->
         <script src="app.js"></script>
     </body>
 </html>

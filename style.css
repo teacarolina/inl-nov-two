@@ -1,3 +1,5 @@
+/*Imported files below*/
+/*Header section*/
 header {
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +17,7 @@ header {
   max-width: 100%;
   max-height: 100%; }
 
+/*Section for form*/
 .input--divs {
   display: flex;
   height: 100%;
@@ -33,6 +36,7 @@ header {
   padding-left: 1%;
   padding-right: 1%; }
 
+/*All sections for lists based on user input*/
 .section--divs, .section--divs2, .savings--section {
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +57,7 @@ header {
 .income--div2 {
   margin-right: 18%; }
 
+/*Footer section*/
 footer {
   display: flex;
   position: relative; }
@@ -61,11 +66,13 @@ footer {
   max-width: 100%;
   max-height: 100%; }
 
+/*Global HTML settings*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/*Used mediaqueries to make it responsive for every device*/
 @media (max-width: 410px) {
   .input--divs {
     height: 50%;
