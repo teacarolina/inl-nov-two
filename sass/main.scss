@@ -1,20 +1,5 @@
-@import "./sass/_header.scss"; 
-@import "./sass/_form.scss";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@media (max-width:410px) {
-    .input--div {
-        height: 50%;
-        width: 50%;
-        left: 25%;
-    }
-
-    .input--form {
-        padding: 1%;
-    }
-} 
+@import "./sass/partials/_header.scss"; 
+@import "./sass/partials/_form.scss";
+@import "./sass/partials/_section.scss";
+@import "./sass/partials/_footer.scss";
+@import "./sass/global.scss";

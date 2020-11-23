@@ -1,0 +1,25 @@
+.section--divs, .section--divs2, .savings--section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    font-family: Piazzolla; 
+}
+
+.savings--section {
+    margin-bottom: 5%;
+}
+
+.income--div {
+    margin-top: 1%;
+    margin-right: 20%;
+}
+
+.spending--div {
+    margin-top: 1%;
+}
+
+.income--div2 {
+    margin-right: 18%;
+}
+

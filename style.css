@@ -11,11 +11,11 @@ header {
   top: 8%;
   font-family: Ribeye Marrow; }
 
-#headerimg {
+#header-img {
   max-width: 100%;
   max-height: 100%; }
 
-.input--div {
+.input--divs {
   display: flex;
   height: 100%;
   width: 100%;
@@ -23,12 +23,43 @@ header {
   justify-content: center;
   position: relative; }
 
+.select {
+  margin-top: 1.3%; }
+
+#button, #calculate {
+  font-family: Piazzolla; }
+
 .input--form {
   padding-left: 1%;
   padding-right: 1%; }
 
-#button, #calculate {
+.section--divs, .section--divs2, .savings--section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
   font-family: Piazzolla; }
+
+.savings--section {
+  margin-bottom: 5%; }
+
+.income--div {
+  margin-top: 1%;
+  margin-right: 20%; }
+
+.spending--div {
+  margin-top: 1%; }
+
+.income--div2 {
+  margin-right: 18%; }
+
+footer {
+  display: flex;
+  position: relative; }
+
+#coins-img {
+  max-width: 100%;
+  max-height: 100%; }
 
 * {
   margin: 0;
@@ -36,9 +67,21 @@ header {
   box-sizing: border-box; }
 
 @media (max-width: 410px) {
-  .input--div {
+  .input--divs {
     height: 50%;
     width: 50%;
     left: 25%; }
   .input--form {
     padding: 1%; } }
+
+@media (min-width: 411px) and (max-width: 539px) {
+  .select {
+    margin-top: 3.8%; } }
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .select {
+    margin-top: 2.9%; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .select {
+    margin-top: 2%; } }
