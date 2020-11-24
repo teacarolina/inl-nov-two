@@ -47,6 +47,9 @@ header {
 .savings--section {
   margin-bottom: 5%; }
 
+.savings--h4, .income--p, .spendings--p, .income--ul, .spending--ul {
+  text-align: center; }
+
 .income--div {
   margin-top: 1%;
   margin-right: 20%; }
