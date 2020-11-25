@@ -1,19 +1,24 @@
-/*All sections for lists based on user input*/
+/*All sections for elements based on user input*/
 
-.section--divs, .section--divs2, .savings--section {
+.savings--section, .section--divs, .section--divs2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    font-family: Piazzolla; 
+    font-family: Cormorant Garamond;
+    color: white;
 }
 
 .savings--section {
     margin-bottom: 5%;
 }
 
-.savings--h4, .income--p, .spendings--p, .income--ul, .spending--ul {
+.savings--h4, .income--ul, .spending--ul, .income--p, .spendings--p {
     text-align: center;
+}
+
+.savings--h4 {
+    font-size: 40px;
 }
 
 .income--div {
@@ -21,10 +26,22 @@
     margin-right: 20%;
 }
 
+.income--ul {
+    list-style: none;
+}
+
 .spending--div {
     margin-top: 1%;
 }
 
+.spending--ul {
+    list-style: none;
+}
+
 .income--div2 {
     margin-right: 18%;
+}
+
+.section--divs2 {
+    margin-bottom: 3%;
 }

@@ -30,7 +30,7 @@ else {
     //creates li element and pushes it into ul
     var spendingUl = document.querySelector(".spending--ul")
     var li = document.createElement("li")
-    li.innerHTML = description + " : " + amount
+    li.innerHTML = description + " : " + -amount
     spendingUl.appendChild(li)
     //push - numbers into arrays 
     array.push(Number(-amount))

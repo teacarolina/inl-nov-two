@@ -3,19 +3,20 @@
 header {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
-  justify-content: center; }
+  margin-top: 3%;
+  flex-direction: column;
+  align-items: center; }
 
 .header--h1 {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 8%;
-  font-family: Ribeye Marrow; }
+  /*font-family: Ribeye;*/
+  font-family: Ribeye;
+  color: white; }
 
 #header-img {
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  width: 20%;
+  height: 20%; }
 
 /*Section for form*/
 .input--divs {
@@ -24,74 +25,98 @@ header {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative; }
+  position: relative;
+  font-family: Cormorant Garamond;
+  color: white; }
 
 .select {
-  margin-top: 1.3%; }
+  margin-top: 1.6%; }
 
-#button, #calculate {
-  font-family: Piazzolla; }
+#calculate, #button {
+  font-family: Cormorant Garamond; }
 
 .input--form {
   padding-left: 1%;
   padding-right: 1%; }
 
-/*All sections for lists based on user input*/
-.section--divs, .section--divs2, .savings--section {
+#description, #amount {
+  font-family: Cormorant Garamond;
+  color: hotpink; }
+
+/*All sections for elements based on user input*/
+.savings--section, .section--divs, .section--divs2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  font-family: Piazzolla; }
+  font-family: Cormorant Garamond;
+  color: white; }
 
 .savings--section {
   margin-bottom: 5%; }
 
-.savings--h4, .income--p, .spendings--p, .income--ul, .spending--ul {
+.savings--h4, .income--ul, .spending--ul, .income--p, .spendings--p {
   text-align: center; }
+
+.savings--h4 {
+  font-size: 40px; }
 
 .income--div {
   margin-top: 1%;
   margin-right: 20%; }
 
+.income--ul {
+  list-style: none; }
+
 .spending--div {
   margin-top: 1%; }
+
+.spending--ul {
+  list-style: none; }
 
 .income--div2 {
   margin-right: 18%; }
 
+.section--divs2 {
+  margin-bottom: 3%; }
+
 /*Footer section*/
-footer {
-  display: flex;
-  position: relative; }
-
-#coins-img {
-  max-width: 100%;
-  max-height: 100%; }
-
 /*Global HTML settings*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background: linear-gradient(to left, #171769, #1395ff); }
+
 /*Used mediaqueries to make it responsive for every device*/
 @media (max-width: 410px) {
   .input--divs {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
     left: 25%; }
   .input--form {
-    padding: 1%; } }
+    padding: 1%; }
+  #header-img2 {
+    width: 50%;
+    height: 50%; } }
 
 @media (min-width: 411px) and (max-width: 539px) {
   .select {
-    margin-top: 3.8%; } }
+    margin-top: 4.6%; }
+  #header-img2 {
+    width: 50%;
+    height: 50%; } }
 
 @media (min-width: 540px) and (max-width: 767px) {
   .select {
-    margin-top: 2.9%; } }
+    margin-top: 3.6%; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .select {
+    margin-top: 2.6%; } }
+
+@media (min-width: 1024px) and (max-width: 1100px) {
   .select {
     margin-top: 2%; } }
