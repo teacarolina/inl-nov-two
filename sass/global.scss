@@ -39,6 +39,10 @@ body {
         position: relative;
         left: 10%;
     }
+
+    footer {
+        position: fixed;
+    }
 } 
 
 @media (min-width:411px) and (max-width:539px) {
@@ -52,17 +56,21 @@ body {
     }
 
     .income--div {
-        width: 20%;
+        width: 33%;
         position: relative;
     }
 
     .spending--div {
-        width: 43%;
+        width: 35%;
     }
 
     #income-h2 {
         position: relative;
-        left: 40%;
+        left: 10%;
+    }
+
+    footer {
+        position: fixed;
     }
 
 }
@@ -71,11 +79,16 @@ body {
     .select {
         margin-top: 3.6%;
     }
+
 }
 
 @media (min-width:768px) and (max-width:1023px) {
     .select {
         margin-top: 2.6%;
+    }
+
+    footer {
+        position: fixed;
     }
 
 }
@@ -85,4 +98,9 @@ body {
         margin-top: 2%;
 
     }
+
+    footer {
+        position: fixed;
+    }   
+
 }

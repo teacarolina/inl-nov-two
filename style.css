@@ -76,16 +76,31 @@ header {
 .scroll {
   height: 30vh;
   width: 20vh;
-  overflow: auto; }
+  overflow: auto;
+  margin-bottom: 6rem; }
 
 .spending--ul {
   list-style: none; }
 
 .income--div2 {
-  margin-right: 23%; }
+  margin-right: 21%; }
 
 .section--divs2 {
-  margin-bottom: 3%; }
+  margin-top: 1%; }
+
+/*Footer section*/
+footer {
+  background-color: darkgray;
+  height: 5rem;
+  width: 100%;
+  position: relative;
+  bottom: 0; }
+
+.footer--contact {
+  padding: 1%; }
+
+.contact {
+  margin-top: 0.5%; }
 
 /*Global HTML settings*/
 * {
@@ -114,7 +129,9 @@ body {
     width: 45%; }
   #income-h2 {
     position: relative;
-    left: 10%; } }
+    left: 10%; }
+  footer {
+    position: fixed; } }
 
 @media (min-width: 411px) and (max-width: 539px) {
   .select {
@@ -123,13 +140,15 @@ body {
     width: 50%;
     height: 50%; }
   .income--div {
-    width: 20%;
+    width: 33%;
     position: relative; }
   .spending--div {
-    width: 43%; }
+    width: 35%; }
   #income-h2 {
     position: relative;
-    left: 40%; } }
+    left: 10%; }
+  footer {
+    position: fixed; } }
 
 @media (min-width: 540px) and (max-width: 767px) {
   .select {
@@ -137,8 +156,12 @@ body {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .select {
-    margin-top: 2.6%; } }
+    margin-top: 2.6%; }
+  footer {
+    position: fixed; } }
 
 @media (min-width: 1024px) and (max-width: 1100px) {
   .select {
-    margin-top: 2%; } }
+    margin-top: 2%; }
+  footer {
+    position: fixed; } }
