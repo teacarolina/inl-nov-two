@@ -25,6 +25,20 @@ body {
         width: 50%;
         height: 50%;
     }
+
+    .income--div {
+        width: 35%;
+        position: relative;
+    }
+
+    .spending--div {
+        width: 45%;
+    }
+
+    #income-h2 {
+        position: relative;
+        left: 10%;
+    }
 } 
 
 @media (min-width:411px) and (max-width:539px) {
@@ -36,6 +50,21 @@ body {
         width: 50%;
         height: 50%;
     }
+
+    .income--div {
+        width: 20%;
+        position: relative;
+    }
+
+    .spending--div {
+        width: 43%;
+    }
+
+    #income-h2 {
+        position: relative;
+        left: 40%;
+    }
+
 }
 
 @media (min-width:540px) and (max-width:767px) {

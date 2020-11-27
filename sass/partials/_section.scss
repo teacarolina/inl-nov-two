@@ -24,6 +24,7 @@
 .income--div {
     margin-top: 1%;
     margin-right: 20%;
+    text-align: center;
 }
 
 .income--ul {
@@ -32,6 +33,13 @@
 
 .spending--div {
     margin-top: 1%;
+    text-align: center;
+}
+
+.scroll {
+    height: 30vh;
+    width: 20vh;
+    overflow: auto;
 }
 
 .spending--ul {
@@ -39,7 +47,7 @@
 }
 
 .income--div2 {
-    margin-right: 18%;
+    margin-right: 23%;
 }
 
 .section--divs2 {

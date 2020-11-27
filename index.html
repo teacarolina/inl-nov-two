@@ -6,6 +6,8 @@
         <title>Monthly Budget</title>
         <!--Link for html icon image-->
         <link rel="icon" href="images/piggybank-vektor(by BarelyDevi).png">
+        <!--Link for icons used from Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
         <!--Link to fonts used from Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Ribeye&display=swap" rel="stylesheet">
@@ -48,16 +50,20 @@
         <!--Section for income- and spendingslists-->
         <section class="section--divs">
             <div class="income--div">
-                <h2>Income</h2>
+                <h2 id="income-h2">Income</h2>
+                <div class="scroll">
                 <ul class="income--ul">
                     <!--The li-information will come from js-->
                 </ul>
+                </div>
             </div>
             <div class="spending--div">
                 <h2>Spendings</h2>
+                <div class="scroll">
                 <ul class="spending--ul">
                     <!--The li-information will come from js-->
                 </ul>
+                </div>
             </div>
         </section>
         <!--Section for the total income and spendings-->
@@ -69,11 +75,12 @@
             <div class="spending-div2">
                 <h3>Total spendings</h3>
                 <p class="spendings--p"></p>
+
             </div>
         </section>
         <!--Footer section-->
         <footer>
-            
+
         </footer>
         <!--Script below to link js to html-->
         <script src="app.js"></script>
