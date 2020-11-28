@@ -1,4 +1,5 @@
 /*Imported files below*/
+/*Variables used a lot in the page*/
 /*Header section*/
 header {
   display: flex;
@@ -8,7 +9,6 @@ header {
   align-items: center; }
 
 .header--h1 {
-  /*font-family: Ribeye;*/
   font-family: Ribeye;
   color: white; }
 
@@ -94,7 +94,8 @@ footer {
   height: 5rem;
   width: 100%;
   position: relative;
-  bottom: 0; }
+  bottom: 0;
+  font-family: Cormorant Garamond; }
 
 .footer--contact {
   padding: 1%; }
@@ -112,6 +113,10 @@ body {
   background: linear-gradient(to left, #171769, #1395ff); }
 
 /*Used mediaqueries to make it responsive for every device*/
+@media only screen and (max-width: 280px) {
+  .spending--div {
+    margin-right: 10%; } }
+
 @media (max-width: 410px) {
   .input--divs {
     height: 45%;
@@ -123,13 +128,10 @@ body {
     width: 50%;
     height: 50%; }
   .income--div {
-    width: 35%;
+    width: 34%;
     position: relative; }
   .spending--div {
-    width: 45%; }
-  #income-h2 {
-    position: relative;
-    left: 10%; }
+    width: 35%; }
   footer {
     position: fixed; } }
 
@@ -140,13 +142,13 @@ body {
     width: 50%;
     height: 50%; }
   .income--div {
-    width: 33%;
+    width: 34%;
     position: relative; }
   .spending--div {
-    width: 35%; }
+    width: 38%; }
   #income-h2 {
     position: relative;
-    left: 10%; }
+    left: 8%; }
   footer {
     position: fixed; } }
 

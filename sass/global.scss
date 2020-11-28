@@ -10,6 +10,12 @@ body {
 }
 
 /*Used mediaqueries to make it responsive for every device*/
+@media only screen and (max-width: 280px) {
+    .spending--div {
+        margin-right: 10%;
+    }
+}
+
 @media (max-width:410px) {
     .input--divs {
         height: 45%;
@@ -27,17 +33,12 @@ body {
     }
 
     .income--div {
-        width: 35%;
+        width: 34%;
         position: relative;
     }
 
     .spending--div {
-        width: 45%;
-    }
-
-    #income-h2 {
-        position: relative;
-        left: 10%;
+        width: 35%;
     }
 
     footer {
@@ -56,17 +57,17 @@ body {
     }
 
     .income--div {
-        width: 33%;
+        width: 34%;
         position: relative;
     }
 
     .spending--div {
-        width: 35%;
+        width: 38%;
     }
 
     #income-h2 {
         position: relative;
-        left: 10%;
+        left: 8%;
     }
 
     footer {

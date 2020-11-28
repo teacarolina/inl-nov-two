@@ -1,12 +1,11 @@
 /*All sections for elements based on user input*/
-
 .savings--section, .section--divs, .section--divs2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    font-family: Cormorant Garamond;
-    color: white;
+    font-family: $font-text; 
+    color: $color-text; 
 }
 
 .savings--section {

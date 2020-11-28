@@ -1,5 +1,3 @@
-//ska det vara minus och plustecken framför? 
-
 //Function for monthly budget
 
 //Arrays used to store amount input from users
@@ -20,7 +18,7 @@ if(option.value==="+") {
     var li = document.createElement("li")
     li.innerHTML = description + " : " + amount
     incomeUl.appendChild(li)
-    //push + numbers into arrays
+    //push +numbers into arrays
     array.push(Number(amount))
     arrayIncome.push(Number(amount))
 }   
@@ -32,7 +30,7 @@ else {
     var li = document.createElement("li")
     li.innerHTML = description + " : " + -amount
     spendingUl.appendChild(li)
-    //push - numbers into arrays 
+    //push -numbers into arrays 
     array.push(Number(-amount))
     arraySpendings.push(Number(-amount))
 }
@@ -46,7 +44,7 @@ var test2 = 0;
 for(var i = 0; i<arrayIncome.length; i++) {
     test2 += arrayIncome[i];
 }
-//for loop to show total profit based on income-spendings
+//for loop to show total profit based on income - spendings
 var total = 0; 
 for(var i = 0; i<array.length; i++) {
     total += array[i];
@@ -62,7 +60,6 @@ var totalIncome = document.querySelector(".income--p")
 totalIncome.innerHTML = test2    
 }
 
-//added eventlistner to button so it creates the function when
-//button is clicked
+//added eventlistner to button so it creates the function when button is clicked
 var btn = document.querySelector("#button")
 btn.addEventListener("click", createLi)

@@ -1,5 +1,4 @@
 /*Section for form*/
-
 .input--divs {
     display: flex;
     height: 100%;
@@ -7,8 +6,8 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    font-family: Cormorant Garamond;
-    color: white;
+    font-family: $font-text; 
+    color: $color-text; 
 }
 
 .select {
@@ -16,7 +15,7 @@
 }
 
 #calculate, #button {
-    font-family: Cormorant Garamond;
+    font-family: $font-text; 
 }   
 
 .input--form {
@@ -25,6 +24,6 @@
 }
 
 #description, #amount {
-    font-family: Cormorant Garamond;
+    font-family: $font-text; 
     color: hotpink;
 }
